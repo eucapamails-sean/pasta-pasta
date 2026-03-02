@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  @apply bg-gradient-to-b from-pasta to-white text-gray-900 antialiased;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-6;
+}
+
+.image-placeholder {
+  background: linear-gradient(135deg, rgba(230,57,70,0.1), rgba(42,157,143,0.08));
+}
